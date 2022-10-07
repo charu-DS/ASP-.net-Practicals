@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/main.Master" AutoEventWireup="true" CodeBehind="menu.master.cs" Inherits="master8416.NestedMasterPage1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+     <br />
+
+     <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/home.aspx">Home</asp:HyperLink>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/aboutme.aspx">About Me</asp:HyperLink>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/courseoffered.aspx">Courses Offered</asp:HyperLink>
+     <br />
+<br />
+<asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    <p>
+    </p>
+</asp:ContentPlaceHolder>
+</asp:Content>
+

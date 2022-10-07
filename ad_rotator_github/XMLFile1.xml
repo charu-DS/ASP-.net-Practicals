@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageURL>
+			"~/images/Charu.jpg"
+			</ImageURL>
+		<NavigateURL>
+			www.google.com</NavigateURL>
+		<Impressions>20</Impressions>
+		<AlternateText>SOmething</AlternateText>
+		</Ad>
+</Advertisements>

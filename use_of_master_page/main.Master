@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="main.master.cs" Inherits="master8416.main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>main</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header style="font-size:24px; color:blue; background-color:cyan;">
+            <br />
+             Courses Site CSC
+            <br />
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               
+                <p>
+                    <br />
+                </p>
+               
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer style="font-size:18px; color:white; background-color:black;">
+            <br />
+            Created by Charu Saraswat 8416<br />
+        </footer>
+    </form>
+</body>
+</html>
